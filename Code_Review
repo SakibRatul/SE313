@@ -12,7 +12,7 @@ public class SampProg
 	protected int repeatedNumber(final List a)
 	{
 		int len = a.size(),i,dup = -1;
-		int[len] arr = new int[len];
+		int[] arr = new int[len];
 		for (i=0; i<len+1; i++)
 		{
 			arr[i+1] = a.get(i);
